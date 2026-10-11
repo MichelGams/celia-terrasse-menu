@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: celia-terrasse-menu
+    buildCommand: echo 'Static menu ready'
+    staticPublishPath: dist
